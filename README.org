@@ -1,0 +1,14 @@
+# -*- mode: org; coding: utf-8-unix; ispell-local-dictionary: "english"; -*-
+#+title: WEBWEU01
+:DRAWER:
+#+author: Kasper Andersson
+#+todo: TODO FIXME WORKING DONE
+#+startup: indent
+#+startup: fold
+#+options: num:nil tex:dvipng
+#+latex_compiler: xelatex
+#+latex_header: \usepackage{fontspec}
+#+latex_header: \setmainfont{Times New Roman}
+#+latex_header: \newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
+:END:
+The repository where I put my various files for the WEBWEU01 course.

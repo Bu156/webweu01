@@ -1,0 +1,29 @@
+/* coding:utf-8-unix mode:web */
+body{
+    background-color: #b6a5d4;
+    font-family: helvetica, Noto Color Emoji;
+}
+:is(h1, h2, h3, h4, h5, h6){
+    color: darkgreen;
+    font-family: serif;
+    text-align: center;
+}
+.os-img{
+    max-width: auto;
+    max-height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.os-caption {
+    text-align: center;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
