@@ -5,7 +5,7 @@
 #+todo: TODO FIXME WORKING DONE
 #+startup: indent
 #+startup: fold
-#+options: num:nil tex:dvipng
+#+options: num:nil tex:dvipng toc:nil
 #+latex_compiler: xelatex
 #+latex_header: \usepackage{fontspec}
 #+latex_header: \setmainfont{Times New Roman}
