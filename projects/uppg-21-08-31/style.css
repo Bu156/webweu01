@@ -3,11 +3,13 @@ body{
     background-color: #b6a5d4;
     font-family: Helvetica, Arial, Sans-Serif, Noto Color Emoji;
 }
+
 :is(h1, h2, h3, h4, h5, h6){
     color: darkgreen;
     font-family: serif;
     text-align: center;
 }
+
 .os-img{
     max-width: auto;
     max-height: 150px;

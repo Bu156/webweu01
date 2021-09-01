@@ -1,23 +1,31 @@
 /* coding:utf-8-unix mode:web */
+/* This is pretty self-explainatory */
 body{
     background-color: #b6a5d4;
     font-family: Helvetica, Arial, Sans-Serif, Noto Color Emoji;
 }
+
 :is(h1, h2, h3, h4, h5, h6){
     color: darkgreen;
     font-family: serif;
     text-align: center;
 }
-.os-img{
-    max-width: auto;
-    max-height: 150px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+p{}
+
+#card-shadow{
+    background-color: black;
 }
 
-.os-caption {
-    text-align: center;
+.shadow{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#card{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    padding: 1%;
 }
 
 footer{
@@ -27,4 +35,17 @@ footer{
     right:0;
     padding-top: 10%;
     text-align: center;
+}
+
+#gentoo-logo-div{
+    width: 15%;
+    position: auto;
+    margin: auto;
+}
+
+#gentoo-logo{
+    width: 100%;
+}
+
+#paragraph-container {
 }
