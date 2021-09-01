@@ -1,12 +1,33 @@
 /* coding:utf-8-unix mode:web */
+
+#project-browser{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shadow{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    font-family: Fira Sans;
+}
+
 body{
     font-family: helvetica;
+    background-color: #607080;
 }
 
 footer{
-    position:fixed;
-    bottom:0;
-    left:0;
-    right:0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 5%;
     text-align: center;
 }
