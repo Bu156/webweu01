@@ -6,8 +6,8 @@ body{
 }
 
 :is(h1, h2, h3, h4, h5, h6){
-    color: darkgreen;
-    font-family: serif;
+    color: #4e4371;
+    font-family: Fira Sans, Verdana;
     text-align: center;
 }
 
@@ -18,26 +18,35 @@ body{
 #card{
     background-color: white;
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 5%;
     padding: 2%;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 footer{
-    position:auto;
-    bottom:0;
-    left:0;
-    right:0;
+    position: auto;
+    bottom: 0;
+    margin: auto;
     padding-top: 10%;
+    width: 50%;
     text-align: center;
 }
 
 #gentoo-logo-div{
-    width: 15%;
+    width: 10%;
     position: auto;
     margin: auto;
 }
 
 #gentoo-logo{
     width: 100%;
+}
+
+#why-linux-content{
+    float:left;
+}
+#why-linux-img{
+    float:right;
 }
