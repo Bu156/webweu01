@@ -1,0 +1,80 @@
+body {
+    font-family: DejaVu Sans, Helvetica, Arial;
+    background-color: #8e7e75;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    font-size: 18pt;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tablediv {
+    margin: auto;
+    width: 80%;
+}
+
+#lunchheader {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15pt;
+    margin: 0 auto;
+    border: 1px solid #2a2a2a;
+    background-color: #9295e0;
+}
+
+#firstrow {
+    background-color: #8e90d2;
+}
+
+table, td, th {
+    border: 1px solid #2a2a2a;
+}
+
+#lunchtable {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius:6px;
+}
+
+#card{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+.rating {
+    height: 16px;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.footerdiv {
+    margin: 0 auto;
+    background-color: white;
+    width: 20%;
+    padding: 1px;
+    text-align: center;
+    border-radius: 15px;
+}
