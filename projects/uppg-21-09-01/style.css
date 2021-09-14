@@ -20,6 +20,7 @@ a {
 }
 
 a:hover {
+    /* Fancy schmancy hover effects */
     color: #0fbe27;
     transition: color 0.25s linear;
 }
