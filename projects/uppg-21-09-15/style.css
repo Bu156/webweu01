@@ -1,3 +1,5 @@
+/* mode:web coding:utf-8-unix */
+
 body {
     font-family: DejaVu Sans, Helvetica, Arial;
     background-color: #8e7e75;
@@ -44,7 +46,7 @@ table, td, th {
     border-radius:6px;
 }
 
-#card{
+#card{ /* Fancy schmancy card thingy with rounded corners */
     background-color: white;
     width: 60%;
     margin: 0 auto;
@@ -65,6 +67,7 @@ table, td, th {
 }
 
 footer {
+    margin: 0 auto;
     position:absolute;
     bottom: 0;
     width: 99%;
