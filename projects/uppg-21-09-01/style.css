@@ -11,6 +11,24 @@ body{
     text-align: center;
 }
 
+img{
+    width: 100%;
+}
+
+a {
+    color: #43bc54;
+}
+
+a:hover {
+    color: #4e4371;
+    transition: color 0.5s linear;
+}
+
+.os-text-logo{
+    height: 10px;
+    width: 10px;
+}
+
 .shadow{
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
 }
@@ -34,19 +52,11 @@ footer{
     text-align: center;
 }
 
-#gentoo-logo-div{
-    width: 10%;
-    position: auto;
-    margin: auto;
-}
-
-#gentoo-logo{
-    width: 100%;
-}
-
-#why-linux-content{
+#licensing-content{
     float:left;
 }
-#why-linux-img{
-    float:right;
+
+#tux-img{
+    float: right;
+    width: 10%;
 }
