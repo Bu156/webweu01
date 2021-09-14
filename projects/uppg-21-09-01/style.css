@@ -1,5 +1,5 @@
 /* coding:utf-8-unix mode:web */
-/* This is pretty self-explainatory */
+
 body{
     background-color: #b6a5d4;
     font-family: Helvetica, Arial, Sans-Serif, Noto Color Emoji;
@@ -16,12 +16,12 @@ img{
 }
 
 a {
-    color: #43bc54;
+    color: #0b6517;
 }
 
 a:hover {
-    color: #4e4371;
-    transition: color 0.5s linear;
+    color: #0fbe27;
+    transition: color 0.25s linear;
 }
 
 .os-text-logo{
@@ -31,6 +31,17 @@ a:hover {
 
 .shadow{
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+#titlediv {
+    margin: 0 auto;
+    width: 40%;
+}
+
+#why-i-love-linux {
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 3px;
 }
 
 #card{
@@ -50,10 +61,6 @@ footer{
     padding-top: 10%;
     width: 50%;
     text-align: center;
-}
-
-#licensing-content{
-    float:left;
 }
 
 #tux-img{
