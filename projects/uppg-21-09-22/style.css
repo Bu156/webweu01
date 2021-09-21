@@ -13,7 +13,34 @@ h1 {
     font-size: 18pt;
 }
 
-#content-sidebar {
+#container {
+    display: flex;
+    margin-top: 5%;
+}
+
+#leftamogus {
+    height: 30rem;
+}
+
+#rightamogus {
+    height: 30rem;
+    z-index: -1;
+}
+
+#secondpost {
+    display: flex;
+}
+
+#contentamogus {
+    height: 30rem;
+    float: right;
+}
+
+#cupcake-ipsum {
+    float: left;
+}
+
+#content-and-sidebar {
     display: flex;
 }
 
@@ -69,8 +96,8 @@ footer {
 #card{ /* Fancy schmancy card thingy with rounded corners */
     background-color: white;
     width: 60%;
-    margin: 0 auto;
-    margin-top: 5%;
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 2%;
     padding-top: 5%;
     padding-bottom: 5%;
